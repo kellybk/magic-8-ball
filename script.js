@@ -15,7 +15,7 @@ $(document).ready(function(){
 		$("#8ball").attr("src", "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/answerside.png");
 		
 		
-		$("#answer").fadeIn(7000);
+		$("#answer").fadeIn(4000);
 		
 		var randomNumber = Math.random();
         var randomNumberForListOfAnswers = randomNumber * this.listOfAnswers.length;
