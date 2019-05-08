@@ -30,11 +30,9 @@ $(document).ready(function(){
  
     var onClick = function() {
         var question = prompt("ASK A YES/NO QUESTION!");
-        magic8Ball.askQuestion(question);
 		
 		setTimeout(
 			function() {
-				var question = prompt("Ask a yes or no question");
 				magic8Ball.askQuestion(question);
 			}, 500);
     };
